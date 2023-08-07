@@ -139,8 +139,8 @@
 # a = 400
 # print("Yes" if ((a%4 == 0) and (a%100 != 0)) or (a%400 == 0) else "NO")
 
-n1 = n // 6
-n2 = n // 6
-n3 = (n // 6) * 4
-print(n1, n3, n2)
+# n1 = n // 6
+# n2 = n // 6
+# n3 = (n // 6) * 4
+# print(n1, n3, n2)
 
