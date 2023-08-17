@@ -1,3 +1,5 @@
+
+
 # В купейном вагоне имеется
 # 9 купе с четырьмя местами для пассажиров в каждом. Напишите программу,
 # которая определяет номер купе, в котором находится место с заданным номером (нумерация
@@ -481,7 +483,102 @@
 # Программа должна вывести цифру в соответствии с условием задачи.
 
 
-num = float(input())
-print(int(num % 1 * 10 // 1))
+# num = float(input())
+# print(int(num % 1 * 10 // 1))
 
 #############################################
+
+# Напишите программу, которая упорядочивает три числа от большего к меньшему.
+# Формат входных данных
+# На вход программе подается три целых числа, каждое на отдельной строке.
+# Формат выходных данных
+# Программа должна вывести три числа, каждое на отдельной строке, упорядоченных от большего к меньшему.
+
+# num1, num2, num3 = int(input()), int(input()), int(input())
+# print(max(num1, num2, num3))
+# print((num1 + num2 + num3) - max(num1, num2, num3) - min(num1, num2, num3))
+# print(min(num1, num2, num3))
+
+#############################################
+
+# Назовем число интересным, если в нем разность максимальной и минимальной цифры равняется средней по величине цифре.
+# Напишите программу, которая определяет, интересное число или нет. Если число интересное, следует вывести
+# «Число интересное», иначе - «Число неинтересное».
+
+# num = int(input())
+# print('Число интересное' if max(num // 100, num // 10 % 10, num % 10) - min(num // 100, num // 10 % 10, num % 10) ==
+#                             (num // 100 + num // 10 % 10 + num % 10) - max(num // 100, num // 10 % 10, num % 10) -
+#                             min(num // 100, num // 10 % 10, num % 10)
+#       else 'Число неинтересное')
+
+#############################################
+
+# a1, a2, a3, a4, a5 = abs(float(input())), abs(float(input())), abs(float(input())), abs(float(input())), abs(float(input()))
+# print(a1 + a2 + a3 + a4 + a5)
+
+#############################################
+
+
+# p1, p2, q1, q2 = int(input()), int(input()), int(input()), int(input())
+# print(abs((p1 - q1)) + abs((p2 - q2)))
+
+#############################################
+
+# name = input()
+# print(f'Футбольная команда {name} имеет длину {len(name)} символов')
+
+#############################################
+# town1, town2, town3 = input(), input(), input()
+# len1 = len(town1)
+# len2 = len(town2)
+# len3 = len(town3)
+# if len1 == min(len1, len2, len3) and len2 == max(len1, len2, len3):
+#     print(town1)
+#     print(town2)
+# elif len1 == min(len1, len2, len3) and len3 == max(len1, len2, len3):
+#     print(town1)
+#     print(town3)
+# elif len2 == min(len1, len2, len3) and len1 == max(len1, len2, len3):
+#     print(town2)
+#     print(town1)
+# elif len2 == min(len1, len2, len3) and len3 == max(len1, len2, len3):
+#     print(town2)
+#     print(town3)
+# elif len3 == min(len1, len2, len3) and len1 == max(len1, len2, len3):
+#     print(town3)
+#     print(town1)
+# elif len3 == min(len1, len2, len3) and len2 == max(len1, len2, len3):
+#     print(town3)
+#     print(town2)
+
+#############################################
+
+# a, b, c = len(input()), len(input()), len(input())
+#
+# if ((a + b + c) - max(a, b, c) - min(a, b, c)) - min(a, b, c) == max(a, b, c) - ((a + b + c) - max(a, b, c) - min(a, b, c)):
+#     print('YES')
+# else:
+#     print('NO')
+
+#############################################
+
+# Напишите программу, которая считывает одну строку, после чего выводит «YES», если во введенной
+# строке есть подстрока «синий» и «NO» - в противном случае.
+
+# s = input()
+# if 'синий' in s:
+#     print('YES')
+# else:
+#     print('NO')
+
+#############################################
+
+# a = input()
+# print('YES' if 'суббота' in a or 'воскресенье' in a else 'NO')
+
+
+
+
+import math
+
+
