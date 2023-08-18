@@ -576,9 +576,100 @@
 # a = input()
 # print('YES' if 'суббота' in a or 'воскресенье' in a else 'NO')
 
+#############################################
+
+# from math import sqrt
+# x1, y1, x2, y2 = float(input()), float(input()), float(input()), float(input())
+# print(sqrt((x1 - x2)**2 + (y1 - y2)**2))
+
+#############################################
+# from math import *
+# r = float(input())
+# print(pi * r**2)  # площадь
+# print(2 * pi * r)  # длина окружности
 
 
+#############################################
 
-import math
+# import math
+#
+# a = float(input())
+# b = float(input())
+# print((a + b) / 2)  # среднее арифметическое чисел
+# print(math.sqrt(a * b))  # среднее геометрическое чисел
+# print((2 * a * b) / (a + b))  # среднее гармоническое чисел
+# print(math.sqrt((a**2 + b**2) / 2))  # среднее квадратичное чисел
 
+#############################################
 
+# from math import *
+# x = float(input())
+# x = radians(x)
+# print(sin(x) + cos(x) + (tan(x))**2)
+
+#############################################
+
+# from math import *
+# x = float(input())
+# print(abs(ceil(x)) + abs(floor(x)))
+
+#############################################
+# Квадратное уравнение
+
+# from math import *
+#
+# a, b, c = float(input()), float(input()), float(input())
+# d = b ** 2 - 4 * a * c
+# if d < 0:
+#     print('Нет корней')
+# else:
+#     x1 = ((-b) + sqrt(d)) / (2 * a)
+#     x2 = ((-b) - sqrt(d)) / (2 * a)
+#     if x1 == x2:
+#         print(x1)
+#     else:
+#         print(min(x1, x2))
+#         print(max(x1, x2))
+
+#############################################
+
+# for i in range(5):
+#     num = int(input())
+#     print('Квадрат вашего числа равен:', num * num)
+# print('Цикл завершен')
+
+#############################################
+
+# s = input()
+# n = int(input())
+# for i in range(n):
+#     print(s)
+
+#############################################
+
+# n = int(input())
+# for i in range(n):
+#     print('*' * 19)
+
+#############################################
+
+# n = int(input())
+# for i in range(n + 1):
+#     print('Квадрат числа', i, 'равен', i**2)
+
+#############################################
+
+# Треугольник из звездочек с одинаковыми катетами.
+
+# n = int(input())
+# count = 0
+# for i in range(n):
+#     print('*  ' * (n - count))
+#     count += 1
+#
+# m = int(input())
+# p = int(input())
+# n = int(input())
+# for i in round(n + 1):
+#     print(i, m)
+#     m += m * (p / 100)
