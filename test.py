@@ -769,10 +769,17 @@
 # которое называют стоп значением. Напишем программу, которая считывает числа и находит их сумму, до тех пор пока
 # пользователь не введет слово stop:
 
-text = input()
-total = 0
-while text != 'stop':
-    num = int(text)
-    total += num
-    text = input()
-print('Сумма чисел равна', total)
+# text = input()
+# total = 0
+# while text != 'stop':
+#     num = int(text)
+#     total += num
+#     text = input()
+# print('Сумма чисел равна', total)
+
+# from math import *
+# n = int(input())
+# total = 0
+# for i in range(1, n + 1):  # от 1 до n + 1 потому что i не может принимать значение 0, на 0 делить нельзя
+#     total = total + i ** (-1)
+# print(total - log(n))
