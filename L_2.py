@@ -24,23 +24,59 @@
 # является числом Фибоначчи, выведите число -1.
 
 
-a = int(input())
-a1 = 1
-a2 = 1
-i = 0
-count = 2
-counter = -1
+# a = int(input())
+# a1 = 0
+# a2 = 1
+# i = 0
+# count = 2
+# counter = -1
+#
+# for i in range(a):
+#     temp = a2
+#     a2 = a1 + a2
+#     a1 = temp
+#     count += 1
+#     if a == a2:
+#         counter += 1
+#         print(count)
+# if counter < 0:
+#     print(counter)
 
-for i in range(a):
-    temp = a2
-    a2 = a1 + a2
-    a1 = temp
-    count += 1
-    if a == a2:
-        counter += 1
-        print(count)
-if counter < 0:
-    print(counter)
+# не мое
+
+# n = int(input('Введите число -> '))
+# frst, scnd, count = 0, 1, 2
+# while scnd <= n:
+#     if scnd == n:
+#         print(count)
+#         break
+#     frst, scnd = scnd, frst + scnd
+#     count += 1
+# else:
+#     print(-1)
+
+# семинар
+
+# 1 2 3 4 5 6
+# 0 1 1 2 3 5
+# a > 1
+# f1 = 1
+# f2 = 1
+#
+# i = 3
+#
+# a = int(input())
+#
+# while f2 < a:
+#     # temp = f2
+#     # f2 = f2 + f1
+#     # f1 = temp
+#     f1, f2 = f2, f1 + f2
+#     i += 1
+# if f2 == a:
+#     print(i)
+# else:
+#     print(-1)
 
 
 #######################################################################################################################
@@ -71,6 +107,39 @@ if counter < 0:
 #     if temperature > 0:
 #         count += 1
 # print('Оттепель длилась', count, 'дней')
+#
+# numbers_count = int(input(""))
+
+# count = 0
+# max_count = 0
+# numbers_count = int(input(""))
+# for i in range(numbers_count):
+#     number = int(input("число: "))
+#
+#     if number > 0:
+#         count += 1
+#         max_count = max(max_count, count)
+#     else:
+#         count = 0
+#
+# print("Результат", count)
+
+# решение с семинара
+
+# n = int(input())
+
+# count = 1
+# maxx = 0
+#
+# for i in range(n):
+#     if n > 0:
+#         count += 1
+#         if count > maxx:
+#             maxx = count
+#     else:
+#         count = 0
+#
+# print(maxx)
 
 #######################################################################################################################
 
@@ -101,3 +170,15 @@ if counter < 0:
 
 
 #######################################################################################################################
+# i = 1
+# while i < 11:
+#     print(i, end=' ')
+#     break
+#     i += 1
+# else:
+#     print('\nend!')
+#
+#
+#
+# while (num := int(input('-> '))) < 0:
+#     print(f'Число {num} маленькое!')
