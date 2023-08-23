@@ -1,0 +1,34 @@
+Index: L_3.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/L_3.py b/L_3.py
+new file mode 100644
+--- /dev/null	
++++ b/L_3.py	
+@@ -0,0 +1,24 @@
++# Задача №17. Решение в группах
++# Дан список чисел. Определите, сколько в нем
++# встречается различных чисел.
++# Input: [1, 1, 2, 0, -1, 3, 4, 4]
++# Output: 6
++
++# рандомное число
++
++# import random
++# n = random.randint(1, 100)
++# print(n)
++
++from random import randint
++
++n = int(input())
++list_1 = [randint(1, 10) for i in range(n)]
++print(list_1)
++count = 1
++for i in range(1, len(list_1)):
++    if list_1[i - 1] != list_1[i]:
++        count += 1
++
++print(count)
++
