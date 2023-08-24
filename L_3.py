@@ -11,11 +11,12 @@
 # print(n)
 
 # from random import randint
-
+#
 # n = int(input())
 # list_1 = [randint(1, 10) for i in range(n)]
 # print(list_1)
-#
+
+
 # # list_1 = [3, 3, 3, 6, 6]
 # for i in range(len(list_1)):
 #     for j in range(0, len(list_1) - i - 1):
@@ -31,6 +32,53 @@
 # 2 3 3 4 5 3 6  2 3 3 3 4 5 6
 # print(count)
 
+
+
+# Решение через сет
+# from random import randint
+# n = int(input())
+# list_1 = [randint(1, 10) for i in range(n)]
+#
+# print(list_1)
+# list_1 = set(list_1)
+# print(len(list_1))
+
+# Не мое через срезы
+str1 = [1, 1, 2, 0, -1, 3, 4, 4]
+counter = 0
+for i in range(len(str1)):
+    if str1[i] not in str1[:i]:
+        counter += 1
+print(counter)
+
+
+# #          0  1  2  3   4  5  6  7
+# my_list = [1, 1, 2, 0, -1, 3, 4, 0]
+#
+# print(my_list[-1:-3:-1])
+
+
+
+# Не мое
+list_with_duplicates = [1, 1, 2, 0, -1, 3, 4, 4]
+list1 = []
+for i in list_with_duplicates:
+    if i not in list1:
+        list1.append(i)
+print(len(list1))
+
+# range(5) -> 0, 1, 2, 3, 4
+# range(5, 10) -> 5, 6, 7, 8, 9
+# range(1, 11, 2) -> 1, 3, 5, 7, 9
+
+# for i in range(5): - просто выводятся число от 0 до  4
+#     print(i)
+
+# for new_num in range(5, 10): - выодятся от 5 до 9
+#     print(new_num)
+
+# for temp in range(1, 11, 2): - с шагом 2
+#     print(temp)
 #######################################################################################################################
 
 # Задача №19. Решение в группах
@@ -63,10 +111,10 @@
 #
 # list_1 = [i + 1 for i in range(n)]
 # print(list_1)
-#
-# print(list_1[:k])
-#
-# print(list_1[k:len(list_1)])
+# #
+# # print(list_1[:k])
+# #
+# # print(list_1[k:len(list_1)])
 #
 # print(list_1[k:len(list_1)] + list_1[:k])
 
@@ -81,9 +129,9 @@
 # ":" S007 "}]
 # Output: {'S005', 'S002', 'S007', 'S001', 'S009'}
 
-
+#
 # d = {'up': '↑', 'left': '←', 'down': '↓', 'right': '→'}
-# for(k, v) in d.items():
+# for (k, v) in d.items():
 #     print(v)
 
 
@@ -97,16 +145,17 @@
 # Input: [0, -1, 5, 2, 3]
 # Output: 2 (-1 < 5, 2 < 3)
 
-
-from random import randint
-
-n = int(input())
-list_1 = [randint(1, 10) for i in range(n)]
-print(list_1)
-count = 0
-for i in range(1, len(list_1)):
-
-    if list_1[i - 1] < list_1[i]:
-        count += 1
-
-print(count)
+#
+# from random import randint
+#
+# n = int(input())
+# list_1 = [randint(1, 10) for i in range(n)]
+# print(list_1)
+#
+# count = 0
+# for i in range(1, len(list_1)):
+#
+#     if list_1[i - 1] < list_1[i]:
+#         count += 1
+#
+# print(count)
