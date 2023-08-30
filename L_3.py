@@ -44,12 +44,12 @@
 # print(len(list_1))
 
 # Не мое через срезы
-str1 = [1, 1, 2, 0, -1, 3, 4, 4]
-counter = 0
-for i in range(len(str1)):
-    if str1[i] not in str1[:i]:
-        counter += 1
-print(counter)
+# str1 = [1, 1, 2, 0, -1, 3, 4, 4]
+# counter = 0
+# for i in range(len(str1)):
+#     if str1[i] not in str1[:i]:
+#         counter += 1
+# print(counter)
 
 
 # #          0  1  2  3   4  5  6  7
@@ -60,12 +60,12 @@ print(counter)
 
 
 # Не мое
-list_with_duplicates = [1, 1, 2, 0, -1, 3, 4, 4]
-list1 = []
-for i in list_with_duplicates:
-    if i not in list1:
-        list1.append(i)
-print(len(list1))
+# list_with_duplicates = [1, 1, 2, 0, -1, 3, 4, 4]
+# list1 = []
+# for i in list_with_duplicates:
+#     if i not in list1:
+#         list1.append(i)
+# print(len(list1))
 
 # range(5) -> 0, 1, 2, 3, 4
 # range(5, 10) -> 5, 6, 7, 8, 9
@@ -145,16 +145,16 @@ print(len(list1))
 
 # решение на семинаре
 
-my_list = [{"V": "S001"}, {"V": "S002"}, {"VI": "S001"}, \
-{"VI": "S005"}, {"VII": "S005"}, {"V":"S009"}, {"VIII":"S007"}]
-
-all_val = []
-for now_dict in my_list:
-    for val in now_dict.values():
-        all_val.append(val)
-
-
-print(set(all_val))
+# my_list = [{"V": "S001"}, {"V": "S002"}, {"VI": "S001"}, \
+# {"VI": "S005"}, {"VII": "S005"}, {"V":"S009"}, {"VIII":"S007"}]
+#
+# all_val = []
+# for now_dict in my_list:
+#     for val in now_dict.values():
+#         all_val.append(val)
+#
+#
+# print(set(all_val))
 
 #######################################################################################################################
 
