@@ -8,19 +8,19 @@
 # Для решения данной задачи используйте функцию
 # .split()
 
-# text = input()
-# print(text)
+# text = input('Введите символы через пробел: ').split()  # пробел разделитель, превращаем в список строку
 #
-# print(text.split())
 # print(type(text))
-# text = list(text)
+#
 # counter = 0
-# for i in range(1, len(text)):
+# for i in text:
+#     print(i)
 #     for j in range(1, len(text)):
+#         counter = 0
 #         if text[i - 1] == text[j]:
 #             counter += 1
 #             text.pop(j)
-#             text.insert(j, f'{text[i-j]}_{counter}')
+#
 # print(text)
 
 # Задача №27. Решение в группах
@@ -35,10 +35,12 @@
 # shore shells
 # Output: 13
 
-# text = ("She sells sea shells on the sea shore The shells that she sells are sea shells I'm sure. So if she sells "
-#         "sea shells on the sea shore I'm sure that the shells are sea")
-#
-# text = text.upper()  # переводим все буквы в верхний регистр
+text = ("She sells sea shells on the sea shore The shells that she sells are sea shells I'm sure.So if she sells "
+        "sea shells on the sea shore I'm sure that the shells are sea")
+
+text = text.upper()  # переводим все буквы в верхний регистр
+
+print(len(set(text.split())))
 # text = text.split('.')  # разбиваю на элементы относительно точки
 #
 # for i in range(len(text)):
