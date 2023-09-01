@@ -89,3 +89,24 @@
 # (даже для ввода и вывода).
 # Input: 2 -> 3 4
 # Output: 4 3
+
+# def sort_f(n):
+#     s = input()
+#     if n != 1:
+#         sort_f(n - 1)
+#     print(s, end=' ')
+#
+#
+# n = int(input())
+# sort_f(n)
+
+########
+
+def func(n):
+    number = input()
+    if n == 1:
+        return number
+    return func(n - 1) + " " + number
+
+
+print(func(2))
