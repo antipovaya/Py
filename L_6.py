@@ -124,15 +124,26 @@ def delitel(num):
     return total
 
 
-n = int(input('Введите первое число: '))
-m = int(input('Введите второе число: '))
+# n = int(input('Введите первое число: '))
+# m = int(input('Введите второе число: '))
+#
+# sum_del_n = delitel(n)
+# sum_del_m = delitel(m)
+# if sum_del_n == m and sum_del_m == n:
+#     print('Ваши числа дружественные!')
+# else:
+#     print('Ваши числа не дружественные.')
 
-sum_del_n = delitel(n)
-sum_del_m = delitel(m)
-if sum_del_n == m and sum_del_m == n:
-    print('Ваши числа дружественные!')
-else:
-    print('Ваши числа не дружественные.')
+
+def num_frendly(k):
+    res = []
+    for n in range(1, k):
+        if n not in res:
+            m = delitel(n)
+            if n == delitel(m) and n != m:
+                res.append(n)
+                res.append(m)
+    return res
 
 
-
+print(num_frendly(10000))
