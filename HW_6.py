@@ -34,7 +34,7 @@ from random import randint
 
 
 def new_lst(num):
-    lst_1 = [randint(-10, 10) for i in range(num)]
+    lst_1 = [randint(-10, 10) for _ in range(num)]
     return lst_1
 
 
