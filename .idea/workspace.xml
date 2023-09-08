@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="098610a4-5046-4aba-abc6-5ada43aeb300" name="Changes" comment="Выполненная 2-я домашка">
-      <change afterPath="$PROJECT_DIR$/L_3.py" afterDir="false" />
+    <list default="true" id="098610a4-5046-4aba-abc6-5ada43aeb300" name="Changes" comment="Выполненная 6-я домашка">
+      <change afterPath="$PROJECT_DIR$/task_34.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_36.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_08_2023_14_45_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_08_2023_14_45__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/L_7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Home_Work" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,7 +61,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "H__W__7",
     "last_opened_file_path": "C:/Users/keoka/Desktop/Яна учеба/Python/Lesson_1/Py",
     "settings.editor.selected.configurable": "preferences.editor"
   }
@@ -125,6 +130,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Выполненная 2-я домашка" />
-    <option name="LAST_COMMIT_MESSAGE" value="Выполненная 2-я домашка" />
+    <MESSAGE value="Выполненная 6-я домашка" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполненная 6-я домашка" />
   </component>
 </project>
