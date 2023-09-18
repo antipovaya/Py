@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="098610a4-5046-4aba-abc6-5ada43aeb300" name="Changes" comment="Выполненная 2-я домашка">
-      <change afterPath="$PROJECT_DIR$/L_3.py" afterDir="false" />
+    <list default="true" id="098610a4-5046-4aba-abc6-5ada43aeb300" name="Changes" comment="Дополненный телефонный справочник, 8-я домашка">
+      <change afterPath="$PROJECT_DIR$/task_40 and 42.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_40_42.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_08_2023_14_45_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_08_2023_14_45__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Home_Work" />
+        <entry key="$PROJECT_DIR$" value="H_W_9" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,7 +62,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/keoka/Desktop/Яна учеба/Python/Lesson_1/Py",
-    "settings.editor.selected.configurable": "preferences.editor"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -125,6 +129,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Выполненная 2-я домашка" />
-    <option name="LAST_COMMIT_MESSAGE" value="Выполненная 2-я домашка" />
+    <MESSAGE value="Дополненный телефонный справочник, 8-я домашка" />
+    <option name="LAST_COMMIT_MESSAGE" value="Дополненный телефонный справочник, 8-я домашка" />
   </component>
 </project>
