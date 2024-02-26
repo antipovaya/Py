@@ -4,8 +4,73 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="098610a4-5046-4aba-abc6-5ada43aeb300" name="Changes" comment="Выполненная 2-я домашка">
-      <change afterPath="$PROJECT_DIR$/L_3.py" afterDir="false" />
+    <list default="true" id="098610a4-5046-4aba-abc6-5ada43aeb300" name="Changes" comment="ДЗ 9">
+      <change afterPath="$PROJECT_DIR$/Control_Work_1_Note_Py/Controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Control_Work_1_Note_Py/MAIN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Control_Work_1_Note_Py/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Control_Work_1_Note_Py/file_Operation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Control_Work_1_Note_Py/function_Note.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Control_Work_1_Note_Py/note.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Control_Work_1_Note_Py/user_Interface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_44.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pip/_vendor/six.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/importlib_resources/_adapters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/importlib_resources/_common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/importlib_resources/_compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/importlib_resources/_legacy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/importlib_resources/abc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/importlib_resources/readers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/importlib_resources/simple.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/jaraco/context.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/packaging/_manylinux.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/packaging/_musllinux.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/packaging/_structures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/packaging/specifiers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/packaging/tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/packaging/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/packaging/version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/pyparsing/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/pyparsing/actions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/pyparsing/common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/pyparsing/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/pyparsing/diagram/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/pyparsing/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/pyparsing/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/pyparsing/results.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/pyparsing/testing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/pyparsing/unicode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/pyparsing/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/pkg_resources/_vendor/zipp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/setuptools/_vendor/packaging/_manylinux.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/setuptools/_vendor/packaging/_musllinux.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/setuptools/_vendor/packaging/_structures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/setuptools/_vendor/packaging/specifiers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/setuptools/_vendor/packaging/tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/setuptools/_vendor/packaging/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/setuptools/_vendor/packaging/version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/setuptools/_vendor/pyparsing/actions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/setuptools/_vendor/pyparsing/common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/setuptools/_vendor/pyparsing/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/setuptools/_vendor/pyparsing/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/setuptools/_vendor/pyparsing/results.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/setuptools/_vendor/pyparsing/testing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/setuptools/_vendor/pyparsing/unicode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/setuptools/_vendor/pyparsing/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/setuptools/_vendor/tomli/_parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/setuptools/_vendor/tomli/_re.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/setuptools/cli-32.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Lib/site-packages/setuptools/gui-32.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Scripts/pip.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.folder/Scripts/pip3.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_08_2023_14_45_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_08_2023_14_45__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotePY/file_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/NotePY/file_operation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotePY/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/NotePY/function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotePY/note.py" beforeDir="false" afterPath="$PROJECT_DIR$/NotePY/note.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotePY/notes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/NotePY/notes.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotePY/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/NotePY/ui.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,10 +87,11 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Home_Work" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -56,7 +122,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "H__W__10",
     "last_opened_file_path": "C:/Users/keoka/Desktop/Яна учеба/Python/Lesson_1/Py",
     "settings.editor.selected.configurable": "preferences.editor"
   }
@@ -94,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692790603407</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ДЗ 9">
+      <option name="closed" value="true" />
+      <created>1695038875744</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695038875744</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +199,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Выполненная 2-я домашка" />
-    <option name="LAST_COMMIT_MESSAGE" value="Выполненная 2-я домашка" />
+    <MESSAGE value="ДЗ 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ 9" />
   </component>
 </project>
